@@ -47,7 +47,7 @@ menu "menu"
 window "default"
 	elem "default"
 		type = MAIN
-		pos = 281,0
+		pos = 208,0
 		size = 800x608
 		anchor1 = none
 		anchor2 = none
@@ -106,12 +106,10 @@ window "default"
 		text-mode = false
 		on-show = ""
 		on-hide = ""
-
-window "window1"
-	elem "window1"
-		type = MAIN
-		pos = 281,27
-		size = 755x279
+	elem "label2"
+		type = LABEL
+		pos = 0,584
+		size = 800x26
 		anchor1 = none
 		anchor2 = none
 		font-family = ""
@@ -126,32 +124,19 @@ window "window1"
 		border = none
 		drop-zone = false
 		right-click = false
-		saved-params = "pos;size;is-minimized;is-maximized"
-		title = ""
-		titlebar = true
-		statusbar = false
-		can-close = false
-		can-minimize = true
-		can-resize = true
-		is-pane = false
-		is-minimized = false
-		is-maximized = false
-		can-scroll = none
-		icon = ""
-		image = ""
-		image-mode = stretch
+		saved-params = ""
+		text = ""
+		image = 'toolbar.bmp'
+		stretch = false
 		keep-aspect = false
-		transparent-color = none
-		alpha = 255
-		macro = ""
-		menu = ""
-		on-close = ""
-	elem "output1"
-		type = OUTPUT
-		pos = 0,0
-		size = 746x263
-		anchor1 = 0,0
-		anchor2 = 99,94
+		align = center
+		text-wrap = false
+	elem "input2"
+		type = INPUT
+		pos = 232,584
+		size = 368x20
+		anchor1 = none
+		anchor2 = none
 		font-family = ""
 		font-size = 0
 		font-style = ""
@@ -160,37 +145,12 @@ window "window1"
 		is-visible = true
 		is-disabled = false
 		is-transparent = false
-		is-default = true
-		border = none
-		drop-zone = false
-		right-click = false
-		saved-params = "max-lines"
-		link-color = #0000ff
-		visited-color = #ff00ff
-		style = ""
-		enable-http-images = false
-		max-lines = 1000
-		image = ""
-	elem "input1"
-		type = INPUT
-		pos = 0,263
-		size = 755x16
-		anchor1 = 0,94
-		anchor2 = 100,100
-		font-family = ""
-		font-size = 0
-		font-style = ""
-		text-color = #000000
-		background-color = #ffffff
-		is-visible = true
-		is-disabled = false
-		is-transparent = false
-		is-default = true
+		is-default = false
 		border = none
 		drop-zone = false
 		right-click = false
 		saved-params = ""
-		command = ""
+		command = "say"
 		multi-line = false
 		is-password = false
 		no-command = false
@@ -264,4 +224,29 @@ window "window2"
 		on-show = ""
 		on-hide = ""
 		on-tab = ""
+	elem "label1"
+		type = LABEL
+		pos = 8,104
+		size = 312x64
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		text = "Welcome to the stupid current Item Menu! It will soon be somthing more!"
+		image = ""
+		stretch = false
+		keep-aspect = false
+		align = center
+		text-wrap = false
 
