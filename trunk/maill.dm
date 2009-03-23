@@ -1,5 +1,5 @@
 mob
-	layer=1111111111
+	layer=3
 
 
 obj/blocker

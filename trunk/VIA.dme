@@ -4,8 +4,8 @@
 
 // BEGIN_INTERNALS
 /*
-FILE: test.dm
-DIR:
+FILE: skin.dmf
+DIR: Lib
 MAP_ICON_TYPE: 0
 AUTO_FILE_DIR: ON
 */
@@ -19,6 +19,7 @@ AUTO_FILE_DIR: ON
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
+#include <shadowdarke\sd_text\sd_Text.dme>
 #include "Click To Walk.dm"
 #include "Dictionary.dm"
 #include "esplande.dm"

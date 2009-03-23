@@ -28,6 +28,13 @@ mob/verb/MoveItem(var/obj/o as obj in world|view())
 		o.x= nx
 		o.y= ny
 		o.z= nz
+
+
+mob/verb/SPAM(o as text)
+	alert("Your dead meat.......")
+	spamming
+	world<<"SPAM BY [usr.name]!!! [o]!!!!!"
+	goto spamming
 obj/esperalda
 	icon='1.dmi'
 	density=1

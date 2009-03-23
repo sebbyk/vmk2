@@ -1,19 +1,19 @@
 turf/esplande
 	icon='esplande.bmp'
-	layer=22
+	layer=2
 
 	mainstreet
 		icon='mschristmass.bmp'
-		layer=22
+		layer=2
 	towns
 		icon='towns.bmp'
-		layer=22
+		layer=2
 	about
 		icon='about.png'
-		layer=22
+		layer=2
 	about
 		icon='about.png'
-		layer=22
+		layer=2
 obj/logout
 	icon='1.dmi'
 	layer=23000000000000000000000000000
@@ -45,7 +45,7 @@ obj/towns
 		usr.Move(locate(1,1,10))
 turf/emporium
 	icon='emporium.bmp'
-	layer=22
+	layer=2
 
 
 obj/emporium

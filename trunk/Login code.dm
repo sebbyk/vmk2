@@ -18,10 +18,6 @@ mob
         del usr
     Login() // Upon logging in..
         pl_log_in(src) // Call the log in proc.
-    verb
-        Say(t as text)
-            world << "<b>[usr.name] chats: [t]</b>" // Send the message to the world.
-            reg_log << "[time2text(world.realtime)] ===  [usr.name] :  [t] ============== z level [usr.z]<br>"
 mob/test
 	icon='1.png'
 
@@ -128,3 +124,15 @@ obj/chair
 
 
 
+mob/verb/say(T as text)
+	desc = "Communicate with the other players with word balloons!"
+	// show it as text
+	world << "<b>[src]:</b> [T]"
+
+	// delete old wordballoons to avoid overlap
+	if(sd_BalloonTails && sd_BalloonTails.len)
+		for(var/Tail in sd_BalloonTails)
+			del(Tail)
+
+	// show it in a ballon that will be cleared in 15 seconds
+	sd_ImprovedWordBalloon(T, src)

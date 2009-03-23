@@ -3,31 +3,31 @@ turf
 	vmk
 		icon='vmk.bmp'
 		density=0
-		layer=1111111111111111
+		layer=4
 	adventure
 		icon='adventure.bmp'
 		density=0
-		layer=1111111111111111
+		layer=4
 	frontier
 		icon='frontier.bmp'
 		density=0
-		layer=1111111111111111
+		layer=4
 	fantasy
 		icon='fantasy.bmp'
 		density=0
-		layer=1111111111111111
+		layer=4
 	tomorrow
 		icon='tomorrow.bmp'
 		density=0
-		layer=1111111111111111
+		layer=4
 	mstreet
 		icon='main.bmp'
 		density=0
-		layer=1111111111111111
+		layer=4
 	or
 		icon='or.bmp'
 		density=0
-		layer=1111111111111111
+		layer=4
 
 
 world
